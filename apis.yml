@@ -23,10 +23,16 @@ apis:
       - type: Documentation
         url: https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest
 common:
+  - type: VulnerabilityDisclosure
+    url: security/coinstats-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/coinstats-domain-security.yml
   - type: Website
     url: https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: https://coinstats.app/blog/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
